@@ -3,6 +3,7 @@ import AppNavbar from './components/AppNavBar';
 import ChampionCard from './components/ChampionCard';
 import Loltron from './components/Loltron';
 import ChampionForm from './components/ChampionForm';
+import ChampionList from './components/ChampionList';
 import ChampionModal from './components/ChampionModal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -17,8 +18,10 @@ function App() {
     <div className="App">
       <AppNavbar />
       <Container>
-      <ChampionModal/>
-      <ChampionForm />
+      <div className="center">
+        <ChampionModal />
+      </div>
+      <ChampionList/>
       </Container>
     </div>
     </Provider>

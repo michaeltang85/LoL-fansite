@@ -1,0 +1,18 @@
+.cardTitle {
+    font-size: 2.5em;
+}
+.cardSubtitle {
+   font-size: 1.5em;
+}
+.cardText {
+    font-size: 1em;
+}
+.App {
+    background-color: lightgrey;
+}
+.center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}

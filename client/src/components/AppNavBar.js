@@ -26,7 +26,7 @@ class AppNavBar extends Component {
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
                 <Container>
-                    <NavbarBrand href="/">LoL fansite</NavbarBrand>
+                    <NavbarBrand href="/">League Of Legends</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}>
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="mr-auto" navbar>
@@ -41,7 +41,7 @@ class AppNavBar extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="https://github.com/michaeltang85">
+                                    <NavLink href="https://github.com/michaeltang85/LoL-fansite">
                                         Github
                                     </NavLink>
                                 </NavItem>
@@ -50,7 +50,7 @@ class AppNavBar extends Component {
                     </NavbarToggler>
                     <NavLink>Champions</NavLink>
                     <NavLink>TFT</NavLink>
-                    <NavLink>Github</NavLink> 
+                    <NavLink href="https://github.com/michaeltang85/LoL-fansite" target="_blank" rel="noopener noreferrer">Github</NavLink> 
                 </Container>
             </Navbar>
         </div>

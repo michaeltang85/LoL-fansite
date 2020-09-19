@@ -3,35 +3,26 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button, Container
 } from 'reactstrap';
+import '../App.css';
 
 class ChampionCard extends Component {
-    state = {
-        champions: [
-            { name: 'Aatrox', title: "the blade", lore: "blah...", imageUrl: "/images/Aatrox_0.jpg"},
-            { name: 'Ahri', title: "the fox", lore: "blah..."},
-            { name: 'Alistar', title: "the cow", lore: "blah..."}
-        ]
+    constructor(props){
+        super(props);
     }
 
-    render() {
-        const { champions } = this.state;
+    
 
+    render() {
         return(
-            <Container>
-                <div>
-                    {champions.map(({ name, title, lore, imageUrl }) => (
-                    <Card>
-                        <CardImg top width="50%" src={imageUrl} alt="champ image"/>
-                        <CardBody>
-                             <CardTitle>{name}</CardTitle>
-                             <CardSubtitle>{title}</CardSubtitle>
-                             <CardText>{lore}</CardText>
+                <Card>
+                    <CardImg top width="100%" src={this.props.champion.imageURL} alt="champ image"/>
+                    <CardBody>
+                            <CardTitle className="cardTitle">{this.props.champion.name}</CardTitle>
+                            <CardSubtitle className="cardSubtitle">{this.props.champion.title}</CardSubtitle>
+                            <CardText className="cardText">{this.props.champion.lore}</CardText>
                             <Button>View More</Button>
-                        </CardBody>
-                    </Card>
-                    ))}
-                </div>
-                </Container>
+                    </CardBody>
+                </Card>
         );
     }
 }

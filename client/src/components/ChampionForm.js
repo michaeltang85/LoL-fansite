@@ -17,8 +17,6 @@ class ChampionForm extends Component{
 
         return(
             <Container>
-                
-
                 <ListGroup>
                     {champions.map(({ _id, name,title}) => (
                         <ListGroupItem>

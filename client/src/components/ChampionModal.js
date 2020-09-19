@@ -13,7 +13,7 @@ class ChampionModal extends Component {
         name: '',
         title: '',
         lore: '',
-        imageUrl: ''
+        imageURL: ''
     }
 
     toggle = () => {
@@ -32,7 +32,7 @@ class ChampionModal extends Component {
             name: this.state.name,
             title: this.state.title,
             lore: this.state.lore,
-            imageUrl: this.state.imageUrl,
+            imageURL: this.state.imageURL,
         }
         // add item via addchampion action
         this.props.addChampions(newChampion);
@@ -69,7 +69,7 @@ class ChampionModal extends Component {
                         </FormGroup>
                         <FormGroup>
                             <Label>ImageUrl</Label>
-                            <Input type="text" name="imageUrl" id="imageUrl" onChange={this.onChange}/>
+                            <Input type="text" name="imageURL" id="imageURL" onChange={this.onChange}/>
                         <Button
                             color="dark"
                             style={{marginTop: '2rem'}}
