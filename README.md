@@ -1,8 +1,20 @@
 # League of Legends Wiki
 Web Application built using MERN stack
-<br/>
+<br/> <br/>
 *League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.*
-## Features
+<br/> <br/>
+Deployed using Heroku (https://damp-fortress-60852.herokuapp.com/)
+## Features to be Added
+- Authentication
+- Search Bar
+  - Filter Options
+- View More
+  - Skins
+  - Abilities 
+- Teamfight Tactics
+
 
 ## To Do List
-
+- <s>Add all champions</s>
+- <s>Scroll to the top button</s>
+- Footer
