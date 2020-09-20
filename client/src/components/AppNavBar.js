@@ -9,6 +9,7 @@ import {
     NavLink,
     Container
 } from 'reactstrap';
+import '../App.css';
 
 class AppNavBar extends Component {
     state = {
@@ -31,16 +32,16 @@ class AppNavBar extends Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="/">
+                                    <NavLink href="#">
                                         Champions
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="">
+                                    <NavLink disabled href="#">
                                         TFT
                                     </NavLink>
                                 </NavItem>
-                                <NavItem>
+                                <NavItem className="navBarTitle">
                                     <NavLink href="https://github.com/michaeltang85/LoL-fansite">
                                         Github
                                     </NavLink>
@@ -48,8 +49,8 @@ class AppNavBar extends Component {
                             </Nav>
                         </Collapse>
                     </NavbarToggler>
-                    <NavLink>Champions</NavLink>
-                    <NavLink>TFT</NavLink>
+                    <NavLink href="#">Champions</NavLink>
+                    <NavLink disabled href="#">TFT</NavLink>
                     <NavLink href="https://github.com/michaeltang85/LoL-fansite" target="_blank" rel="noopener noreferrer">Github</NavLink> 
                 </Container>
             </Navbar>

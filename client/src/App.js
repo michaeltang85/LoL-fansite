@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import AppNavbar from './components/AppNavBar';
-import ChampionCard from './components/ChampionCard';
-import Loltron from './components/Loltron';
-import ChampionForm from './components/ChampionForm';
 import ChampionList from './components/ChampionList';
 import ChampionModal from './components/ChampionModal';
+import ScrollButton from './components/ScrollButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Container} from 'reactstrap';
@@ -17,6 +15,7 @@ function App() {
     <Provider store={store}>
     <div className="App">
       <AppNavbar />
+      <ScrollButton/>
       <Container>
       <div className="center">
         <ChampionModal />
