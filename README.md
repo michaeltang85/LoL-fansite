@@ -12,7 +12,7 @@ Deployed using Heroku (https://damp-fortress-60852.herokuapp.com/)
   - Skins
   - Abilities 
 - Teamfight Tactics
-
+- More CSS styling
 
 ## To Do List
 - <s>Add all champions</s>
