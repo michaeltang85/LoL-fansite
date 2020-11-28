@@ -17,4 +17,6 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 ## To Do List
 - <s>Add all champions</s>
 - <s>Scroll to the top button</s>
+- <s>Docker file for development environment</s>
+- Docker file for production environment
 - Footer
