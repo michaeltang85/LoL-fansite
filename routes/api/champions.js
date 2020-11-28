@@ -9,7 +9,7 @@ const champion = require('../../models/champion');
 // @access Public
 router.get('/', (req, res) => {
     champion.find()
-        .sort({ name: -1})
+        .sort({ _id: -1})
         .then(champions => res.json(champions))
 });
 

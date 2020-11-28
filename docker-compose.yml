@@ -1,0 +1,27 @@
+version: '3'
+services:
+  react-app:
+    build: 
+      context: ./client
+      dockerfile: ./Dockerfile
+    image: front-end
+    stdin_open: true
+    depends_on: 
+      - api-server
+    ports:
+      - 3000:3000
+    networks:
+      - mern-app
+  api-server:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    image: back-end
+    container_name: lol-api
+    ports:
+      - 5000:5000
+    networks:
+      - mern-app
+networks:
+  mern-app:
+    driver: bridge

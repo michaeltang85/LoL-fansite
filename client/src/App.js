@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AppNavbar from './components/AppNavBar';
 import ChampionList from './components/ChampionList';
 import ChampionModal from './components/ChampionModal';
-import ScrollButton from './components/ScrollButton';
+import ScrollButton from './components/ScrollButton.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Container} from 'reactstrap';
