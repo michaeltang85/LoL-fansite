@@ -49,9 +49,9 @@ class AppNavBar extends Component {
                             </Nav>
                         </Collapse>
                     </NavbarToggler>
-                    <NavLink href="#">Champions</NavLink>
-                    <NavLink disabled href="#">TFT</NavLink>
-                    <NavLink href="https://github.com/michaeltang85/LoL-fansite" target="_blank" rel="noopener noreferrer">Github</NavLink> 
+                    <NavLink className="navLink" href="#">Champions</NavLink>
+                    <NavLink className="navLink" disabled href="#">TFT</NavLink>
+                    <NavLink className="navLink" href="https://github.com/michaeltang85/LoL-fansite" target="_blank" rel="noopener noreferrer">Github</NavLink> 
                 </Container>
             </Navbar>
         </div>
