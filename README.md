@@ -4,19 +4,27 @@ Web Application built using MERN stack
 *League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.*
 <br/> <br/>
 Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
-## Features to be Added
-- Authentication
+
+
+## Built With  
+* React
+* Node.js
+* MongoDB
+* Express
+* Postgresql
+
+## Features to be Added Soon
 - Search Bar
   - Filter Options
 - View More
   - Skins
   - Abilities 
 - Teamfight Tactics
-- More CSS styling
 
 ## To Do List
 - <s>Add all champions</s>
 - <s>Scroll to the top button</s>
 - <s>Docker file for development environment</s>
+- <s>Footer</s>
 - Docker file for production environment
-- Footer
+- Authentication with JWT/OAUTH2.0
