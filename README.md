@@ -38,4 +38,4 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 - Authentication with JWT/OAUTH2
 
 ## License
-*All intellectual property belongs to Riot Games.*
+*All intellectual property belong to Riot Games.*
