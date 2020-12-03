@@ -13,6 +13,12 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 * Express
 * Postgresql
 
+## Installation
+### Linux / Windows
+1. Download / Install Docker
+2. run the command <code>docker compose build</code> to build the required docker images.
+3. run the command <code>docker compose up </code> to start up the docker container.
+
 ## Features to be Added Soon
 - Search Bar
   - Filter Options
