@@ -1,5 +1,5 @@
 # League of Legends Wiki
-Web Application built using MERN stack
+Full Stack Web Application built using the MERN stack
 <br/> <br/>
 *League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.*
 <br/> <br/>
