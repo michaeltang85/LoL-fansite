@@ -21,7 +21,7 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 4. Defaulted to <code>http://localhost:3000</code>
 
 ## Features to be Added Soon
-- Search Bar
+
   - Filter Options
 - View More
   - Skins
@@ -33,5 +33,6 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 - <s>Scroll to the top button</s>
 - <s>Docker file for development environment</s>
 - <s>Footer</s>
+- <s>Search Bar</s>
 - Docker file for production environment
-- Authentication with JWT/OAUTH2.0
+- Authentication with JWT/OAUTH2
