@@ -1,9 +1,9 @@
-# League of Legends Wiki
+# League of Legends Wiki [Link](https://damp-fortress-60852.herokuapp.com/)
 Full Stack Web Application built using the MERN stack
 <br/> <br/>
 *League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.*
 <br/> <br/>
-Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
+Deployed using Heroku (https://damp-fortress-60852.herokuapp.com/)
 
 
 ## Built With  
@@ -21,12 +21,11 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 4. Defaulted to <code>http://localhost:3000</code>
 
 ## Features to be Added Soon
-
-  - Filter Options
+- Teamfight Tactics
 - View More
   - Skins
   - Abilities 
-- Teamfight Tactics
+- Filter Options
 
 ## To Do List
 - <s>Add all champions</s>
