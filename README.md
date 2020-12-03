@@ -36,3 +36,6 @@ Deployed using Heroku [Link Here](https://damp-fortress-60852.herokuapp.com/)
 - <s>Search Bar</s>
 - Docker file for production environment
 - Authentication with JWT/OAUTH2
+
+## License
+*All intellectual property belongs to Riot Games.*
